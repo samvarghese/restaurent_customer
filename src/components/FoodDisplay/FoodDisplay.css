@@ -1,0 +1,23 @@
+.product-card {
+    width: 100%;
+    max-width: 280px;
+    height: 100%;
+  }
+  
+  .product-image {
+    height: 180px;        /* SAME height for all images */
+    width: 100%;
+    object-fit: cover;    /* Crop nicely without distortion */
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body button {
+    margin-top: auto;     /* Push button to bottom */
+  }
+  
