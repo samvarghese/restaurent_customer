@@ -1,0 +1,35 @@
+.explore-menu-list::-webkit-scrollbar{
+    display:none
+}
+
+.explore-menu-list-item img{
+    cursor:pointer;
+}
+
+.explore-menu-list-item .active{
+    border:5px solid tomato;
+    padding:10px;
+}
+
+
+.explore-menu-list-item p{
+  color:#747474;
+  cursor:pointer
+}
+
+.scroll-icon{
+    cursor:pointer;
+    color:#747474;
+    font-size:24px;
+    margin-left: 10px;
+}
+
+.scroll-icon:hover{
+    color:tomato;
+}
+
+.explore-menu hr{
+    margin:10px 10px;
+    height:2px;
+    background-color: rgb(216, 225, 225);
+}
